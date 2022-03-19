@@ -165,3 +165,92 @@ span{
    border-radius: 50%;
   border: 2px solid yellow;
 }
+
+.orders2{
+    /* background-image: url("./images/Fan.jpeg"); */
+    margin-top: 100px;
+    background-color: rgba(0, 0, 0, 0.699);
+}
+form {
+    width: 100%;
+     margin: auto;
+     margin-top: 20px;
+     color: white;
+     font-weight: 300;
+    
+     
+  }
+  
+
+#flavor{
+    justify-content: center;
+    padding: 5px;
+    background: transparent;  
+    color: yellow;
+    width: 80%;
+}
+
+#size{
+    justify-content: center;
+    padding: 5px;
+    background: transparent;  
+    color: yellow;
+    width: 80%;
+}
+
+#crust{
+    justify-content: center;
+    padding: 5px;
+    background: transparent;  
+    color: yellow;
+    width: 80%;
+}
+
+#toppings{
+    justify-content: center;
+    padding: 5px;
+    background: transparent;  
+    color: yellow;
+    width: 80%;
+}
+
+#number{
+    justify-content: center;
+    padding: 5px;
+    background: transparent;  
+    color: yellow;
+    width: 80%;
+}
+
+
+#resp>p{
+    font-family: 'Poppins';
+    color: rgb(255,167,63);
+    font-size: 2em;
+    font-weight: 200;
+    margin-top: 10px;
+}
+
+#resp{
+    margin-top: 10px;
+    border-left: 2px solid rgba(19, 18, 18, 0.623);
+}
+
+.orders2 h1{
+    text-align: center;
+    font-family: 'Eczar';
+    font-size: 3em;
+    font-weight: 800;
+    color: white;
+}
+
+
+.process{
+      text-align: center;
+      color: aqua;
+      list-style-type: none;
+}
+ #your-order{
+     color: aqua;
+
+ }
