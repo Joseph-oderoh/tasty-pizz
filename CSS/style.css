@@ -111,3 +111,57 @@ span{
     font-weight: 800;
     border-bottom: 2px solid white;
 }
+
+
+.oders{
+    display: flex;
+    justify-content: space-between;
+    background-color: rgba(155, 38, 38, 0.671);
+    height: 130vh;
+    margin-top: 200px; 
+}
+
+.oders:hover{
+    background-color: rgba(0, 0, 0, 0.486);
+}
+
+.oders h1{
+  text-align: center;
+  font-family: 'Eczar';
+  font-size: 3em;
+  font-weight: 800;
+  color: white;
+}
+
+.cont{
+   height:  50%;
+   
+}
+.cont p{
+  font-family: 'Inspiration';
+  margin-top: 50px;
+  font-weight: 200;
+  color: white;
+ font-size: 40px;
+}
+
+.cont p:hover{
+  color: yellow;
+}
+
+
+
+#order1{
+    border: 2px solid yellow;
+    border-radius: 50%;
+}
+
+#order2{
+  border-radius: 50%;
+  border: 2px solid yellow;
+}
+
+#order3{
+   border-radius: 50%;
+  border: 2px solid yellow;
+}
