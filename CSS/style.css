@@ -250,7 +250,13 @@ form {
       color: aqua;
       list-style-type: none;
 }
- #your-order{
+ #ordermade{
      color: aqua;
-
+     text-align: center;
+      font-family: 'Eczar';
  }
+
+.location{
+    display: none;
+   
+}
