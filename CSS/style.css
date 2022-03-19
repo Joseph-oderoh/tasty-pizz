@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins';
+}
+
+body{
+  background-color: rgba(27, 20, 20, 0.726);
+  
+}
+
+nav{
+    color: aquamarine;
+    margin: auto;
+    display: flex;
+   
+}
+
+.nav-menu{
+    display: flex;
+    gap: 20px;
+    list-style-type: none;
+   
+}
+
+ul a{
+    text-decoration: none;
+    color: rgb(199, 199, 16);
+}
+
+span{
+    font-family: 'Inspiration';
+    font-size: 2em;
+    color: red;
+}
