@@ -263,6 +263,18 @@ form {
     color: rgb(255,167,63);
 }
 
+.contac{
+    font-family: monospace;
+    color: white;
+    display: flex;
+    justify-content:space-evenly
+}
+.contac h2{
+    text-align: center;
+    font-family: 'Inspiration';
+
+}
+
 
 @media only screen  and (max-width: 550px){
     body {
@@ -316,6 +328,35 @@ form {
    
     } 
     
+    #order1{
+       display: none;
+    }
+    
+    #order2{
+        display: none;
+    }
+    
+    #order3{
+        display: none;
+    }
+    .cont p{
+        font-family: 'poppins';
+        margin-top: 50px;
+        font-weight: 100;
+        color: white;
+       font-size: 40px;
+      }
     
     
+.oders{
+    display: block;
+    background-color: rgba(155, 38, 38, 0.671);
+    height: 100vh;
+    margin-top: 100px; 
+}
+.contac h2{
+    text-align: center;
+    font-family: 'monospace';
+
+}
 }
