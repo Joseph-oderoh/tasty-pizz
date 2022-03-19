@@ -9,8 +9,9 @@ This is simple web that displays details of pizza sold, and also a user can orde
 ## Setup/Installation Requirements
 * You will first need to get into a browser or access to one most prefered chrome browser. 
 * Navigate to GitHub locate the live link  on the About section 
-* Next click on the Delani live link to get a glimpse on what we have to offer.
-* This will direct you to a new tab displaying the details of the portforlio.
+* Next click on the Tastypizz! live link to get a glimpse on what we have to offer.
+* This will direct you to a new tab displaying the details of the Tastypizz! APP.
+* Live link https://joseph-oderoh.github.io/tasty-pizz/
 
 
 ## Installation
