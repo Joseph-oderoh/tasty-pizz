@@ -33,12 +33,81 @@
                 <img src="./images/pizz1.jpeg" id="about-image">
             </div>
         </div>
-    <div class="col-md-6">
-       <p class="about-pg">
-        <em>Tastizza!</em> this is the place to be  for the best of pizza of offers. Bringing to you the best quick services in this pizza game.ALso it's also a fun arear to sprend with  friends and family.All are are welcomed come one come all.
-       </p>
-    </div> 
-  </div>
+        <div class="col-md-6">
+            <p class="about-pg">
+                <em>Tastizza!</em> this is the place to be  for the best of pizza of offers. Bringing to you the best quick services in this pizza game.ALso it's also a fun arear to sprend with  friends and family.All are are welcomed come one come all.
+            </p>
+        </div> 
+    </div>
+    </div>
+    <div class="container-fluid oders" id="Orders">
+        <div class="row">
+                <h1>Our special</h1>
+            <div class="col-md-4 cont">
+       
+                    <img src="./images/pizz1.jpeg" height="200px" id="order1">
+                    <p>Small size PIZAAA price:--sh.500</p>
+            </div>
+            <div class=" col-md-4 cont">
+                <img src="./images/pizz3.jpeg" height="300px" id="order2">
+                <p>Mediam size PIZAAA price:--sh.800</p>
+            </div>
+            <div class="col-md-4 cont">
+                <img src="./images/pizz2.jpeg" height="350px"
+                id="order3">
+                <p>Large size PIZAAA price:--sh.1200</p>
+            </div>
+        </div>
+    </div>
+    <div class="container orders2">
+        <div class="row">
+          <h1>Order here</h1>
+          <div class="col-md-6">
+            <form action="" id="my-Form">
+              <label for="size">Select Pizza Size</label>
+              <select class="form-control size" name="" id="size">
+                <option value="0">Pizza size </option>
+                <option value="800">Mediam size @ sh 800</option>
+                <option value="500">Small size @ sh 500</option>
+                <option value="1200">Large size @ sh 1200</option>
+              </select> <br>
+              <label for="crust">Select Crust</label> <br>
+              <select class="form-control flavor" id="crust">
+                  <option selected value="choose">Choose your flavor</option>
+                  <option value="0">Select crust</option>
+                  <option value=" 130"> Stuffed Crust@ 130</option>
+                  <option value="120">Cracker Crust @ 120</option>
+                  <option value="130">Flat Bread Crust@ 130</option>
+                  <option value="100">Thin Crust @ 100</option>
+              </select> <br>
+      
+              <label for="toppings">Choose the topping</label><br>
+              <select class="form-control topins" id="toppings">
+                <option value="0">Select Toppings(150)</option>
+                <option value="pepperoni">Pepperoni(120).</option>
+                <option value="onion">Onion(150)</option>
+                <option value="extra cheese">Extra cheese(150)</option>
+               </select><br> 
+  
+               <label for="number">Number of pizza</label> <br>
+               <input type="number" id="number" placeholder="enter number of : eg 1,2,3.."> <br>
+  
+              <button type="submit" class="btn btn-dark" id="btn">Checkout</button>
+              <p>YOUR ORDER IS BEING PROCESSED!</p>
+            <p>Incase of any comment of complaint, Please reach out to us as fast as possible.</p> 
+  
+            </form>
+          </div>
+          <div class="col-md-3 process" id="">
+            <div id="your-order">
+              <h3>Your-order!</h3>
+              <ol id="summary">
+  
+              </ol>
+            </div>
+          </div>
+        </div>
+    </div>
     
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
     <script src="./Js/script.js"></script>
