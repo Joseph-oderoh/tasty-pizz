@@ -359,4 +359,16 @@ form {
     font-family: 'monospace';
 
 }
+
+form {
+    width: 100%;
+     margin: auto;
+     margin-top: 20px;
+     font-size: 20px;
+     color: blue;
+     font-weight: 300;
+    
+     
+  }
+
 }

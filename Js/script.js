@@ -28,8 +28,8 @@ function getToppingsCost() {
     return parseInt(selectedToppings);
 }
 var btn = document.getElementById("btn");
-btn.addEventListener("click", () => {
-    
+btn.addEventListener("click", (e) => {
+    e.preventDefault();
     
     var totalPrice = ((getSizeCost() + getCrustCost() + getToppingsCost()) * getNumber());
     alert("Your order of " + getNumber() + " pizzas has been processed.Your total amount payable is " + totalPrice +"." )
