@@ -175,7 +175,7 @@ form {
     width: 100%;
      margin: auto;
      margin-top: 20px;
-     color: white;
+     color: blue;
      font-weight: 300;
     
      
@@ -186,7 +186,7 @@ form {
     justify-content: center;
     padding: 5px;
     background: transparent;  
-    color: yellow;
+    color: blue;
     width: 80%;
 }
 
@@ -194,7 +194,7 @@ form {
     justify-content: center;
     padding: 5px;
     background: transparent;  
-    color: yellow;
+    color: blue;
     width: 80%;
 }
 
@@ -202,7 +202,7 @@ form {
     justify-content: center;
     padding: 5px;
     background: transparent;  
-    color: yellow;
+    color: white;
     width: 80%;
 }
 
@@ -210,7 +210,7 @@ form {
     justify-content: center;
     padding: 5px;
     background: transparent;  
-    color: yellow;
+    color: blue;
     width: 80%;
 }
 
@@ -218,7 +218,7 @@ form {
     justify-content: center;
     padding: 5px;
     background: transparent;  
-    color: yellow;
+    color: blue;
     width: 80%;
 }
 
