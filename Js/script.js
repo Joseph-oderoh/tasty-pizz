@@ -6,10 +6,24 @@
         this.number = number;
         this.total = total
     }
+ var selectedSize = document.getElementById("size").value
+ function sizeType(){
+   
+    if (this.size == 500) {
+        return "small";
+    }
+    if (this.size == 800) {
+        return "Medium";
+    };
+    if (this.size == 1000) {
+        return "Large";
+    }else{
+        return null;
+    }
+}
+   
 
-
-
-
+// disply order details
 function getSizeCost() {
     var selectedSize = document.getElementById("size").value;
     return parseInt(selectedSize);
@@ -35,8 +49,11 @@ btn.addEventListener("click", (e) => {
     alert("Your order of " + getNumber() + " pizzas has been processed.Your total amount payable is " + totalPrice +"." )
 
 
+    //checkout display
 
-   $("#ordermade").append("Your bill is sh. " + getNumber() +  " Pizzza"  + " of size " + getSizeCost() + " crust type " + getCrustCost()  + "with topping of " + getToppingsCost() + "  suming up to ksh/=" + " " +totalPrice + ".");
+ $(document).ready(function(){
+
+   $("#ordermade").append("Your bill is sh. " + getNumber() +  " Pizzza"  + " of size "  + sizeType() + " crust type " + getCrustCost()  + "with topping of " + getToppingsCost() + "  suming up to ksh/=" + " " +totalPrice + ".");
 
    $("#deliver").click( () => {
     $(".location").slideDown(1000);
@@ -56,6 +73,9 @@ $("#delivery").submit(function () {
 });
 $("input#name").val(""); 
 })
+
+
+ })
 
 
 
