@@ -36,7 +36,7 @@ btn.addEventListener("click", (e) => {
 
 
 
-   $("#ordermade").append("Your bill is sh. " + getNumber() + " Pizzza  suming up to ksh/=" + " " +totalPrice + ".");
+   $("#ordermade").append("Your bill is sh. " + getNumber() +  " Pizzza"  + " of size " + getSizeCost() + " crust type " + getCrustCost()  + "with topping of " + getToppingsCost() + "  suming up to ksh/=" + " " +totalPrice + ".");
 
    $("#deliver").click( () => {
     $(".location").slideDown(1000);
