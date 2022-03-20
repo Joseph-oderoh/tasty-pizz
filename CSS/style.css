@@ -275,6 +275,15 @@ form {
 
 }
 
+footer{
+    text-align: center;
+   background-color: white;
+}
+footer p{
+    font-size: 2em;
+    font-family:  monospace;
+    font-weight: 200;
+}
 
 @media only screen  and (max-width: 550px){
     body {
